@@ -20,7 +20,7 @@ section{
     margin: auto;
 }
 .about, .education, .skills, .projects, .experience, footer{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .about .about-content,
 .education .edu-content,
@@ -38,7 +38,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 section .title::before{
     content: "";
@@ -67,7 +67,7 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     transition: all 0.3s ease;
     background-color: rgb(97, 228, 242);
 }
@@ -156,30 +156,19 @@ section .title::after{
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .home .max-width{
-  width: 100%;
+  width: auto;
   display: flex;
 }
 .home .max-width .row{
   margin-right: 0;
 }
-.home .home-content .text-1{
-    font-size: 27px;
-}
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
-    margin-left: -3px;
-}
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-}
-.home .home-content .text-3 span{
-    color: rgb(97, 228, 242);
-    font-weight: 500;
+    text-align: center;
 }
 
 /* about section styling */
@@ -238,7 +227,7 @@ section .title::after{
     background: rgb(146, 207, 214);
     text-align: center;
     border-radius: 6px;
-    padding: 50px 10px 50px 10px;
+    padding: 50px 35px 50px 35px;
     transition: all 0.3s ease;
 }
 .education .edu-content .card .box{
@@ -274,13 +263,22 @@ section .title::after{
 }
 
 /*projects section*/
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.projects .projects-content .text{
+    text-align: center;
+    text-decoration: none;
+}
+
 .projects .projects-content .card{
     width: 70%;
     margin: 12px auto;
     background: rgb(146, 207, 214);
-    text-align: center;
     border-radius: 6px;
-    padding: 50px 10px 50px 10px;
+    padding: 50px 35px 50px 35px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -300,13 +298,21 @@ section .title::after{
 }
 
 /*experience section*/
+.experience .experience-content .indent-text{
+    margin-left: 30px;
+
+}
+
+.experience .experience-content .text {
+    text-align: center;
+}
+
 .experience .experience-content .card{
     width: 70%;
     margin: 12px auto;
     background: #e4e4ea;
-    text-align: center;
     border-radius: 6px;
-    padding: 50px 10px 50px 10px;
+    padding: 50px 35px 50px 35px;
     transition: all 0.3s ease;
 }
 .experience .experience-content .card .box{
