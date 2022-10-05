@@ -14,7 +14,181 @@ EMAIL: cvtran3@uci.edu
   <title>Chris Tran's Portfolio</title>
 </head>
 <body>
+  <!--navbar-->
+  <nav>
+    <div id="nav-name">Chris Tran</div>
+    <div id="flex-container1">
+      
+      <div><a href="#home">Home</a></div>
+      <div><a href="#experience">Experience</a></div>
+      <div><a href="#contact">Contact</a></div>
+    </div>
+  </nav>
+
+  <!--about me-->
+  <section id="home">
+    <h2 class="title about">About Me</h2>
+    <div id="flex-container2">
+      <div class="flex-items">
+        <img src="assets/picOfFace.png" id="myface">
+      </div>
+      <div class="flex-items">
+        <h3>Hi, I'm Chris!</h3>
+        <p>I'm currently a second year computer science major at the University of 
+           California Irvine. I enjoy creating things from the ground up; both websites and apps alike.
+           The process of ideating, then inventing is one I love. If a technology doesn't
+           exist, it's my goal as a software developer to create it. My past experience
+           include working Javascript, Angular, Node.js, .NET Core MVC, and Azure DevOps.
+           In my free time if I'm not coding, I enjoy watching basketball, playing valorant, or doing magic.
+        </p>
+        <a href="assets/9-14-2022.pdf" target="_blank">
+          <button type="button" class="btn btn-dark">View Resume</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--hobbies-->
+  <section class="odd hobbies">
+    <h2 class="title">Hobbies</h2>
+    <div class="flex-container3">
+      <div class="flex-items">
+        Anime
+        <img src="assets/hxh.gif" class="hobbies-img">
+      </div>
+      <div class="flex-items">
+        Valorant
+        <img src="assets/valorant.gif" class="hobbies-img">
+      </div>
+      <div class="flex-items">
+        Tennis
+        <img src="assets/tennis.gif" class="hobbies-img">
+      </div>
+      <div class="flex-items">
+        Magic
+        <img src="assets/magic.gif" class="hobbies-img">
+      </div>
+    </div>
+  </section>
+
+  <!--education-->
+  <section>
+    <h2 class="title">Education</h2>
+    <div class="card">
+      <h3>University of California Irvine</h3>
+      <div>Bachelor of Science in Computer Science</div>
+      <div>September 2021 - Present</div>
+      <div>Awards: Dean's Honor List</div>
+      <div>GPA: 3.83/4.00</div>
+    </div>
+  </section>
+
+  <!--skills-->
+  <section class="odd">
+    <h2 class="title">Skills</h2>
+    <div class="flex-container4" id="row1">
+      <div>Python</div>
+      <div>C++</div>
+      <div>Java</div>
+      <div>Javascript</div>
+      <div>C#</div>
+      <div>SQL</div>
+    </div>
+    <div class="flex-container4" id="row2">
+      <div>Angular</div>
+      <div>.NET</div>
+      <div>HTML/CSS</div>
+      <div>Git</div>
+      <div>Node.js</div>
+      <div>Azure</div>
+    </div>
+  </section>
+
+  <!--experience-->
+  <section id="experience">
+    <h2 class="title">Experience</h2>
+    <div class="card" id="experience-card">
+      <h3>Orange County Superior Court</h3>
+      <h6><i>Application Development Intern</i></h6>
+      <div id="experience-content">
+        <ul>
+          <li>Enhanced ASM (Application Server Mapping) project</li>
+          <ul>
+            <li>Increased load speeds by 60% and allowed for native mobile experience by converting web app into PWA</li>
+            <li>Implemented sorting in table columns by using Angular Material, facilitating a better user experience</li>
+            <li>Added column for source control by changing data models in .NET Web API and altering tables (SQL)</li>
+            <li>Integrated unit tests in Azure’s CI/CD pipeline by adding tasks (YAML), increasing code coverage by 2%</li>
+            <li>Reduced code smells by 80% using SonarQube to refactor code</li>
+          </ul>
+          <li>Enhanced PEN Notification project</li>
+          <ul>
+            <li>Upgraded Angular 7 to Angular 14 and .NET Core 2.2 to .NET 6 by migrating major versions and resolving breaking changes</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--projects-->
+  <section class="odd projects">
+    <h2 class="title projects">Projects</h2>
+    <div class="card projects">
+      <h3>JP Morgan Chase Data for Good Hackathon</h3>
+      <div id="projects-content">
+        <ul>
+          <li>Performed data analysis with 5 others to help non-profit organization build wealth in underdeveloped countries</li>
+          <li>Cleaned and aggregated 5,000+ rows of data with Pandas and NumPy</li>
+          <li>Created a ranking algorithm to determine crops with the highest social good and lowest environmental costs</li>
+          <li>Developed UI using Tkinter to filter countries based on metrics such as GDP, poverty rate, and CO2 emissions</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--contacts-->
+  <section id="contact">
+    <h2 class="title">Contact</h2>
+    <div class="form">
+      <form action="mailto: christran1773@gmail.com"
+          method="POST"
+          enctype="text/plain"
+          name="Form">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="message">Message:</label><br>
+      <textarea name="message" id="message" cols="40" rows="10"></textarea><br>
+
+      <input id="sendbutton" type="submit" value="Send Message">
+    </form>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer>
+    <div>Made by Chris Tran © 2022</div>
+    <div></div>
+    <div class="socials">
+      <div>
+        <a href="https://www.linkedin.com/in/chris-trannn/" target="_blank">
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.discordapp.com/users/yourID" target="_blank">
+          <i class="fa-brands fa-discord fa-2x"></i>
+        </a>
+      </div>
+      <div>
+        <a href = "mailto: christran1773@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope fa-2x"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
   <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/9f53b33cb7.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

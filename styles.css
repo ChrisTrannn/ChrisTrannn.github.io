@@ -1,0 +1,240 @@
+/* global styles */
+body {
+    margin: 0;
+}
+
+/* navbar styling */
+nav {
+    display: flex;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav div {
+    background-color: rgb(44, 57, 61);
+    flex: 1;
+    padding: 15px;
+}
+
+#flex-container1 {
+    display: flex;
+}
+
+#nav-name {
+    padding-left: 1.5em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+#flex-container1 div {
+    text-align: center;
+}
+
+#flex-container1 div a{
+    text-decoration: none;
+    color: white;
+}
+
+/* about me styling */
+section .title.about {
+    margin-top: 80px;
+}
+
+.title {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+#myface {
+    width: 15em;
+    border-radius: 60em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#flex-container2 {
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+    gap: 2em;
+}
+
+#flex-container2 .flex-items {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.flex-items img {
+    margin: auto;
+}
+
+.flex-items button {
+    background-color: rgb(44, 57, 61);
+}
+
+/* hobbies styling */
+.odd {
+    background-color: rgb(44, 57, 61);
+}
+
+.odd .title {
+    color: white;
+    padding: 30px 0px;
+}
+
+.flex-container3 {
+    display: flex;
+    color: white;
+    gap: 1em;
+}
+
+.flex-container3 .flex-items {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+}
+
+.hobbies-img {
+    width: 20em;
+    height: 13em;
+    border-radius: 10px;
+}
+
+.flex-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container3 .flex-items img{
+    margin: auto;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1420px) {
+    .flex-container3 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .flex-container3 {
+        flex-direction: column;
+    }
+}
+
+.flex-container3 {
+    padding-bottom: 30px;
+}
+
+/* education styling */
+.card {
+    margin: 0% 20%;
+    text-align: center;
+    padding: 50px 50px;
+    background-color: grey;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* skills styling */
+.flex-container4 {
+    display: flex;
+    gap: 5px;
+    margin: 0% 20%
+}
+
+.flex-container4 div{
+    flex: 1;
+    background: #c4c3c3;
+    width: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#row1 {
+    margin-bottom: 10px;
+}
+
+#row2 {
+    padding-bottom: 30px;
+}
+
+/* experience styling */
+#experience-content {
+    text-align: left;
+}
+
+/* projects styling */
+.odd.projects {
+    padding-bottom: 30px;
+}
+
+.card.projects {
+    background: #c4c3c3;
+    text-align: left;
+    color:rgb(32,37,46);
+}
+
+.card.projects h3 {
+    text-align: center;
+}
+
+/* contact styling */
+.form {
+    margin: 0% 20%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#sendbutton {
+    background-color: rgb(44, 57, 61);
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+}
+
+/* footer styling */
+footer {
+    background-color: rgb(150, 154, 155);
+    display: flex;
+}
+
+footer div {
+    color: white;
+    padding: 0;
+    flex: 1;
+    text-align: center;
+    line-height: 100px;
+}
+
+.socials {
+    display: flex;
+    gap: 3px;
+}
+
+.socials div {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.socials i {
+    flex: 1;
+    text-align: center;
+    margin: 20px 1px;
+}
+
+.fa-envelope {
+    text-decoration: none;
+}
