@@ -203,6 +203,11 @@ html, body {
     }
 }
 
+#experience-card h4 {
+    font-style: italic;
+    font-size: 15px;
+}
+
 /* projects styling */
 .odd.projects {
     padding-bottom: 30px;
