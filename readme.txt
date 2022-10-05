@@ -31,8 +31,8 @@
    roughly 10+ hours
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-   https://developer.mozilla.org/en-US/, https://www.w3schools.com/css/, https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox,
-   https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+   https://developer.mozilla.org/en-US/, https://www.w3schools.com/css/, 
+   https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox, https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
    I asked a friend what he thought of my website. We discussed the responsiveness of it, and how I structured my website using flexbox.
