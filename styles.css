@@ -37,6 +37,13 @@ nav div {
     color: white;
 }
 
+@media screen and (max-width: 545px){
+    #nav-name {
+        font-size: 1.7em;
+        padding-top: 20px;
+    }
+}
+
 /* about me styling */
 section .title.about {
     margin-top: 80px;
@@ -73,6 +80,12 @@ section .title.about {
 
 .flex-items button {
     background-color: rgb(44, 57, 61);
+}
+
+@media screen and (max-width: 740px) {
+    #flex-container2 {
+        flex-direction: column;
+    }
 }
 
 /* hobbies styling */
@@ -117,20 +130,14 @@ html, body {
     overflow-x: hidden;
 }
 
-@media screen and (max-width: 1420px) {
-    .flex-container3 {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 1420px) {
-    .flex-container3 {
-        flex-direction: column;
-    }
-}
-
 .flex-container3 {
     padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1420px) {
+    .flex-container3 {
+        flex-direction: column;
+    }
 }
 
 /* education styling */
@@ -175,6 +182,12 @@ html, body {
     text-align: left;
 }
 
+@media screen and (max-width: 960px) {
+    #experience-card, .card.projects {
+        font-size: 12px;
+    }
+}
+
 /* projects styling */
 .odd.projects {
     padding-bottom: 30px;
@@ -202,6 +215,30 @@ html, body {
     border-radius: 6px;
     color: white;
     padding: 10px;
+}
+
+@media screen and (max-width: 1275px) {
+    #message {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    #message {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #message {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #message {
+        width: 300px;
+    }
 }
 
 /* footer styling */
