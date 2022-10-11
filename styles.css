@@ -295,3 +295,56 @@ footer div {
 .fa-envelope {
     text-decoration: none;
 }
+
+/* screen size 412px adjustments */
+
+@media screen and (max-width: 415px) {
+    #nav-name {
+        font-size: 18px;
+        padding-top: 27px;
+    }
+
+    #flex-container1 div {
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    section .title.about {
+        margin-top: 90px;
+    }
+
+    #flex-container2 .flex-items.myface {
+        margin-bottom: 0px;
+    }
+
+    #flex-container2 .flex-items.about-content {
+        padding-top: 0px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    #experience-card h4 {
+        font-size: 12px;
+    }
+
+    .card div {
+        font-size: 9px;
+    }
+
+    #message {
+        max-width: 250px;
+    }
+}
+
+/* screen size 375px adjustments */
+@media screen and (max-width: 376px){
+    footer div {
+        font-size: 10px;
+    }
+}
